@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-8nq3OiMMgrVFAHyRMMO+DTfMEciSY+c3Awhj/5ljQ1xck1Uv2BUtMjsjLD8GT5Er" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>GifTastic!</title>
+</head>
+
+<header class="text-center text-success border border-primary">
+    <p></p>
+    <h1 class="display-1">GifTastic!</h1>
+    <p></p>
+</header>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 mx-auto" id="buttons-wrapper">
+            <br>
+            <!-- <button type="button" class="btn btn-outline-primary" id="happy">happy</button>
+            <button type="button" class="btn btn-outline-secondary" id="mad">mad</button>
+            <button type="button" class="btn btn-outline-success" id="surprised">surprised</button>
+            <button type="button" class="btn btn-outline-danger" id="jealous">jealous</button>
+            <button type="button" class="btn btn-outline-warning" id="sad">sad</button>
+            <button type="button" class="btn btn-outline-info" id="confused">confused</button> -->
+        </div>
+    </div>
+</div>
+<br>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 mx-auto">
+                <form>
+                    <div class="form-group">
+                    <label for="search-input" class="text-success"><h3>Add an emotion or state of being: </h3></label>
+                    <input type="text" class="form-control border border-primary" id="search-input" placeholder="i.e. happy">
+                    <br>
+                    <button class="btn btn-outline-warning btn-sm" id="find-gif" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+
+<br>
+<div class="container border border-primary">
+    <br>
+        <div class="row">
+            <div class="col-md-9 col-xs-12" id="row-1"></div>
+        </div>
+    <br>
+    <div class="row">
+        <div class="col-md-9 col-xs-12" id="row-2"></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-9 col-xs-12" id="row-3"></div>
+    </div>
+</div>
+
+<script src="game.js"></script>
+<body>
+    
+</body>
+</html>
