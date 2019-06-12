@@ -9,6 +9,7 @@
 </head>
 
 <header>
+    <br>
     <div class="row">
         <div class="col-sm-10 offset-md-1 col-xs-12 text-center text-success border border-primary">
             <p></p>
@@ -22,17 +23,18 @@
 <br>
 <div class="container-fluid">
     <div class="row">
+        <div class="col-xs-12 mx-auto">
+            <h3 class="text-success">Click any button below to display GIFs</h3>
+            <br>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-xs-12 mx-auto" id="buttons-wrapper">
             <br>
-            <!-- <button type="button" class="btn btn-outline-primary" id="happy">happy</button>
-            <button type="button" class="btn btn-outline-secondary" id="mad">mad</button>
-            <button type="button" class="btn btn-outline-success" id="surprised">surprised</button>
-            <button type="button" class="btn btn-outline-danger" id="jealous">jealous</button>
-            <button type="button" class="btn btn-outline-warning" id="sad">sad</button>
-            <button type="button" class="btn btn-outline-info" id="confused">confused</button> -->
         </div>
     </div>
 </div>
+<br>
 <br>
 <div class="container-fluid">
         <div class="row">
@@ -42,7 +44,7 @@
                     <label for="search-input" class="text-success"><h3>Add an emotion or state of being: </h3></label>
                     <input type="text" class="form-control border border-primary" id="search-input" placeholder="i.e. happy">
                     <br>
-                    <button class="btn btn-outline-warning btn-sm" id="find-gif" type="submit">Submit</button>
+                    <button class="btn btn-outline-warning btn-sm" id="add-term" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -50,19 +52,10 @@
 </div>
 
 <br>
-<div class="container border border-primary">
+<div class="container border border-primary" id="gifs-div">
     <br>
-        <div class="row">
-            <div class="col-md-9 col-xs-12" id="row-1"></div>
-        </div>
+        <div class="row" id="show-gifs"></div>
     <br>
-    <div class="row">
-        <div class="col-md-9 col-xs-12" id="row-2"></div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col-md-9 col-xs-12" id="row-3"></div>
-    </div>
 </div>
 
 <script src="game.js"></script>
