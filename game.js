@@ -25,7 +25,7 @@ $("#add-term").on("click", function(event) {
       emotionsArray.push(searchTerm);
       addButtons();
     } else {
-      alert("Please type and emotion or state of being");
+      alert("Please type an emotion or state of being.");
     }
 
     $("#search-input").val("");
