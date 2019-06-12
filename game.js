@@ -20,8 +20,14 @@ function addButtons() {
 $("#add-term").on("click", function(event) {
     event.preventDefault();
     var searchTerm = $("#search-input").val().trim();
-    emotionsArray.push(searchTerm);
-    addButtons();
+
+    if ($("#search-input").val().trim() !== ("")) {
+      emotionsArray.push(searchTerm);
+      addButtons();
+    } else {
+      alert("Please type and emotion or state of being");
+    }
+
     $("#search-input").val("");
     
 });
