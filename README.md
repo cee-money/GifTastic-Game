@@ -1,26 +1,12 @@
 # GifTastic-Game
+Deployed version: https://cee-money.github.io/GifTastic-Game/
+
 
 Instructions
-
-Before You Begin
-
-Hit the GIPHY API.
-
-Fool around with the GIPHY API. Giphy API.
-Be sure to read about these GIPHY parameters (hint, hint):
-                q
-                limit
-                rating
-
-
-Like many APIs, GIPHY requires developers to use a key to access their API data. To use the GIPHY API, you'll need a GIPHY account (don't worry, it's free!) and then obtain an API Key by creating an app.
-Make sure you switch the protocol in the query URL from http to https, or the app may not work properly when deployed to Github Pages.
 
 
 Watch the demo video: https://www.youtube.com/watch?v=BqreERTLjgQ&feature=youtu.be
 
-
-You should have a high-level understanding of how this assignment works before attempting to code it.
 
 Before you can make any part of your site work, you need to create an array of strings, each one related to a topic that interests you. Save it to a variable called topics.
 
@@ -45,5 +31,3 @@ Only once you get images displaying with button presses should you move on to th
 
 
 Add a form to your page that takes a value from a user input box and adds it to your topics array. Then make a function call that takes each topic in the array and remakes the buttons on the page.
-Deploy your assignment to Github Pages.
-Rejoice! You just made something really cool.
